@@ -1,7 +1,7 @@
 import SectionWrapper from "./SectionWrapper";
 import { FaJava, FaGithub } from "react-icons/fa";
 import { FiExternalLink } from "react-icons/fi";
-import projectImage from "../assets/production-line.png";
+import projectImage from "../assets/production-line.PNG";
 import { Link } from "react-router-dom";
 
 
