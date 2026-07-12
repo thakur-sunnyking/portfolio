@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaJava, FaGithub } from "react-icons/fa";
-import screenshot7 from "../assets/screenshot7.png";
+import screenshot1 from "../assets/screenshot1.png";
 import screenshot2 from "../assets/screenshot2.png";
 import screenshot3 from "../assets/screenshot3.png";
 import screenshot4 from "../assets/screenshot4.png";
@@ -240,7 +240,7 @@ const ProjectDetails = () => {
 
           <div className="grid md:grid-cols-2 gap-8">
 
-            {[screenshot7, screenshot2, screenshot3, screenshot4, screenshot5, screenshot6, screenshot8].map((image, index) => (
+            {[screenshot1, screenshot2, screenshot3, screenshot4, screenshot5, screenshot6, screenshot8].map((image, index) => (
               <div
                 key={index}
                 className="bg-white rounded-2xl shadow-lg overflow-hidden"
