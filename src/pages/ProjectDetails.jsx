@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import { FaJava, FaGithub } from "react-icons/fa";
 import screenshot1 from "../assets/screenshot1.png";
-import screenshot2 from "../assets/screenshot2.png";
-import screenshot3 from "../assets/screenshot3.png";
-import screenshot4 from "../assets/screenshot4.png";
-import screenshot5 from "../assets/screenshot5.png";
-import screenshot6 from "../assets/screenshot6.png";
-import screenshot8 from "../assets/screenshot8.png";
+import screenshot2 from "../assets/Screenshot2.png";
+import screenshot3 from "../assets/Screenshot3.png";
+import screenshot4 from "../assets/Screenshot4.png";
+import screenshot5 from "../assets/Screenshot5.png";
+import screenshot6 from "../assets/Screenshot6.png";
+import screenshot8 from "../assets/Screenshot8.png";
 
 const ProjectDetails = () => {
   return (
