@@ -47,7 +47,7 @@ const Hero = () => {
               </span>
 
               <span className="bg-orange-100 text-orange-700 px-4 py-2 rounded-full">
-                MySQL
+                PostgreSQL
               </span>
 
             </div>

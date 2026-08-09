@@ -1,20 +1,39 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Home from "./Home";
-import ProjectDetails from "./pages/ProjectDetails";
+import ScrollToTop from "./components/ScrollToTop";
 
-function App() {
-  return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route
-          path="/projects/production-line-scheduler"
-          element={<ProjectDetails />}
-        />
-      </Routes>
-    </BrowserRouter>
-  );
-}
+import DevineKartDetails from "./pages/DevineKartDetails";
+import ProductionLineDetails from "./pages/ProductionLineDetails";
+
+const App = () => {
+    return (
+        <BrowserRouter>
+
+            {/* Automatically scroll to top when route changes */}
+            <ScrollToTop />
+
+            <Routes>
+
+                <Route
+                    path="/"
+                    element={<Home />}
+                />
+
+                <Route
+                    path="/projects/devine-kart"
+                    element={<DevineKartDetails />}
+                />
+
+                <Route
+                    path="/projects/production-line-scheduler"
+                    element={<ProductionLineDetails />}
+                />
+
+            </Routes>
+
+        </BrowserRouter>
+    );
+};
 
 export default App;

@@ -8,7 +8,7 @@ import screenshot5 from "../assets/Screenshot5.png";
 import screenshot6 from "../assets/Screenshot6.png";
 import screenshot8 from "../assets/Screenshot8.png";
 
-const ProjectDetails = () => {
+const ProductionLineDetails  = () => {
   return (
     <div className="min-h-screen bg-slate-50">
 
@@ -496,4 +496,4 @@ const ProjectDetails = () => {
   );
 };
 
-export default ProjectDetails;
+export default ProductionLineDetails ;
