@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 import projectImage from "../../assets/production-line.PNG";
 
-const ProductionLine = () => {
+const ProductionLineSchedular = () => {
     return (
         <article className="bg-white rounded-2xl overflow-hidden border border-gray-200 shadow-lg hover:shadow-xl transition">
 
@@ -101,4 +101,4 @@ const ProductionLine = () => {
     );
 };
 
-export default ProductionLine;
+export default ProductionLineSchedular;
