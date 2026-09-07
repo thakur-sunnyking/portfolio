@@ -23,7 +23,7 @@ const DSA = () => {
               <FaCode className="text-5xl text-blue-600 mx-auto mb-4" />
 
               <h2 className="text-5xl font-bold">
-                150+
+                70+
               </h2>
 
               <p className="mt-3">
