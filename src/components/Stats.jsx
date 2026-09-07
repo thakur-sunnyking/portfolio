@@ -10,7 +10,7 @@ import {
 const stats = [
   {
     icon: <FaCode size={35} className="text-blue-600" />,
-    number: "150+",
+    number: "70+",
     title: "LeetCode Problems",
   },
   {
